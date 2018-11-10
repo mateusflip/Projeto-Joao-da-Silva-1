@@ -1,0 +1,165 @@
+main h1{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;/*Define a cor da fonte*/
+    padding: 20px; /*aumenta a grossura da caixa*/
+  border-bottom: 10px solid black;
+  font-size: 60px;
+  text-transform: uppercase; /*Deixa  texto em caixa alta, leitores de tela não sabem ler textos escritos em caixa alta na tag*/
+}
+h1{
+  font-size: 30px;
+  font-family: "open Sans Condensed";
+}
+h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    clear: both; /*Não pode existir floats em nenhum dos lados da tag*/
+}
+body{
+    background-color: #F2FFFC;
+    font-family: "Times New Roman", serif;
+    font-size: 120%;
+	line-height: 1.5;
+}
+p{
+    text-align: justify;
+    margin: 20px 0;
+}
+blockquote{
+    background-color: #D9E5E3;
+    padding: 20px;
+    width: 250px; /*Largura do elemento*/
+    margin:20px 40px; /*Insere 20 pixels cima e baixo e 40 px na direita e esquerda*/
+    border: solid 10px #C2CCCA;
+
+}
+aside{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #000;
+    color: #F2FFFC;
+    padding:20px;
+}
+main a{ /*Ele aplica os parametros somente nos links (ou seja na tag a)*/
+    font-family: "Open Sans Condensed", sans-serif;
+    color: inherit;
+}
+aside a{
+text-decoration: none;
+font-size: 30px;
+margin-bottom: 25px;
+font-family: "Open Sans Condensed",sans-serif;
+color: inherit;
+}
+main div{
+padding: 30px;
+}
+div{
+  width: 720px;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto; /*Com ambas as margens em automatico o elemento fica centralizado (eu acho) */
+  line-height: 1.5; /*Define o espaçamento entre linhas */
+}
+strong{ /*Isso diz respeito a prpriedade strong de letras*/
+  font-weight: bold;
+}
+em{ /*Diz respeito a tag italico do código*/
+  font-style: italic;
+}
+nav{
+  margin: 60px 30px;
+}
+aside h1{
+  margin-bottom: 25px;
+  font-size:30px;
+}
+
+article{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.leia-mais{
+  padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+.icones li{ /*Mesmo utilizando uma classe deve selecionar "li" para altera-la*/
+  display: inline-block;
+}
+.icones a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url(github.png);
+}
+
+.twitter {
+    background-image: url(twitter.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
+}
+.fiat{
+  float: right; /*Float serve para a tag "flutuar entre o codigo de acordo com meus comandos, no caso a direita do seu posicionamento"*/
+
+}
+cite{ /*Modifica somente o nome da pessoa que está fazendo a sitação*/
+  font-style: italic;
+  float: right; /*coloca o nome do altor no canto direito*/
+}
+.petrobras{
+  float: left;
+}
+.menu-navegacao,img{
+  float: right;
+}
+.joao{
+  width: 20%; /*Esse é o total que a imagem está pegando, se eu tirar ela fica com o tamanho original*/
+  position: absolute;; /*altera a posição da imagem tendo como referencia o */
+  top: 0;
+  right: 0;
+  border: solid 10px;
+}
+.menu-navegacao{
+position: relative;/*Tem que ser relative pois senão o menu vai para atras da foto*/
+top: 265px; /*Aqui é onde ajusto o topo para não encostar na foto*/
+  width: 15%; /*ocupa 15 por cento da tela*/
+  padding: 5px;
+  border: solid 10px black; /*por que a cor da borda está branca?*/
+}
+.menu-navegacao h1{
+  font-family: "open sans Condensed";
+  margin-left: 35px;
+}
+main{
+  float: left;
+  width: 85%; /*ocupa 85 por cento da tela*/
+}
+footer{
+  clear: both; /*faz com que o rodapé fique no lugar dele (no rodapé mesmo hahahaha)*/
+}
+.menu-navegacao li{
+  margin-left: 8px;
+}
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
